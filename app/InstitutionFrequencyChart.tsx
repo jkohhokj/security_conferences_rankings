@@ -33,9 +33,7 @@ export default function InstitutionFrequencyChart() {
 
           setData(formattedData);
         } catch (error) {
-          if (error.name !== 'AbortError') {
             console.error('Failed to fetch institution data:', error);
-          }
         }
       };
 
